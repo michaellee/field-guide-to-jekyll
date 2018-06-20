@@ -19,6 +19,7 @@ Now that you know what makes Jekyll so sweet, the rest of this guide will show y
 ## Before we start
 This guide assumes that you've never installed Jekyll on your system. Although it helps to be comfortable with the command line, it is not necessary. Commands that should be run are included in this guide and could be easily copied and pasted into your terminal. For this reason it is best to view this book on the machine where Jekyll will be installed.
 <div style="page-break-after:always;"></div>
+
 # Installing Jekyll on macOS
 
 ## Open Terminal
@@ -80,7 +81,7 @@ rbenv install 2.4.1
 ```
 
 It takes a while to install *Ruby* so I suggest going on a short walk, grabbing a bite to eat or checking out some YouTube videos like this feel good video from Stuart Edge called *[Surpise Group Hug](https://youtu.be/44tmIiInBwg)*.
-<div style="page-break-after:always;"></div>
+
 ## Set global Ruby version
 
 At this point we've got Ruby installed via *rbenv* but we're not using the version we just installed yet. If you type in `ruby -v` it'll show you that you're using macOS' default version of Ruby which came with your machine.
@@ -118,7 +119,7 @@ If you're wondering about what rehash does, it installs "shims" so that when a R
 Now if we **type** `jekyll -v` in Terminal, we should see `jekyll 3.5.0` which is the latest version of Jekyll version 3 at the time of writing.
 
 Wooohoooo! We've now got Jekyll installed on our Mac and ready to make websites!
-<div style="page-break-after:always;"></div>
+
 # Installing Jekyll on Ubuntu
 
 ## Open Terminal
@@ -128,7 +129,7 @@ First thing we'll need to do is locate *Terminal* which comes included with Ubun
 You could access Terminal, by **clicking** on *Dash* in the menu bar. Dash is the icon that has the Ubuntu logo on it. When Dash's search prompt comes up, **type in** *Terminal*, when the Terminal icon appears, **click on it** to open.
 
 Another convenient way to get to Dash's search prompt is by **hitting** the *super* and *a* key on your keyboard. If you're using a Windows based keyboard, the super key is mapped to the Windows key.
-<div style="page-break-after:always;"></div>
+
 ## Install git
 
 First thing we'll want to do in Terminal is install *git*. git is a versioning system used for developers to take snapshots of a project. It is useful in that it allows you to make changes and if you aren't happy with a change you can revert back to a previous version. git also shines when working in teams.
@@ -162,7 +163,7 @@ Once the packages are updated, we can now install the dependencies we'll need.
 ```
 sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev nodejs yarn
 ```
-<div style="page-break-after:always;"></div>
+
 ## Install rbenv
 
 Now that we've got all of Ruby's dependencies on our system, we'll be installing *rbenv*. What rbenv allows you to do is manage different versions of Ruby on your machine. Using rbenv to manage different versions of Ruby can be beneficial.
