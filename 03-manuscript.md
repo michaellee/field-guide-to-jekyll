@@ -283,7 +283,7 @@ Server running... press ctrl-c to stop.
 ```
 
 You can open up a browser window and type in `http://127.0.0.1:4000` into your URL bar. Alternatively you could type in `http://localhost:4000` as well and it will also point to your Jekyll server. To stop the server, simply press the *control* key and the *c* key on your keyboard.
-<div style="page-break-after:always;"></div>
+
 # Conclusion
 
 Congrats! If you've made it to this point, you have Jekyll up and running on your system and ready to build some awesome websites. Discovering Jekyll has saved me a ton of time and heartache when it comes to building websites and I hope the same results for you.
